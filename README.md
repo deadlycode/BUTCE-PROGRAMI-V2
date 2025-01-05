@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/9e8ab285-51ee-493b-9e08-7d6afaa6e7b7)
 
 💰 PUBLIC BUTCE - Kişisel Bütçe Yönetim Sistemi
 
@@ -23,19 +24,22 @@ Yapay zeka analizi (
 Ön Gereksinimler
 Python 3.8 veya üzeri
 Git (depoyu klonlamak için)
+
+
 Kurulum Adımları
 Depoyu klonlayın
-Code
-CopyInsert
+
 git clone https://github.com/kullaniciadi/PUBLIC-BUTCE.git
+
 cd PUBLIC-BUTCE
 
 Sanal ortam oluşturun (önerilen)
-Code
-CopyInsert
+
 python -m venv venv
+
 # Windows için
 venv\Scripts\activate
+
 # Linux/Mac için
 source venv/bin/activate
 
@@ -50,11 +54,17 @@ Uygulamayı çalıştırın
 python main.pyw
 
 🗂️ Proje Yapısı
+
 PUBLIC BUTCE/
+
 ├── core/                   # Temel mantık ve arka uç
+
 ├── gui/                    # Kullanıcı arayüzü bileşenleri
+
 ├── data/                   # Veritabanı dosyaları
+
 ├── main.pyw               # Ana uygulama başlangıç noktası
+
 └── requirements.txt       # Bağımlılıklar
 
 💻 Sistem Gereksinimleri
@@ -66,14 +76,23 @@ Python 3.8 veya üzeri
 
 
 🔧 Bağımlılıklar
+
 PyQt5
+
 google-generativeai
+
 python-dotenv
+
 pandas
+
 numpy
+
 requests
+
 python-dateutil
+
 sqlite3
+
 datetime
 
 
