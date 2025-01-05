@@ -16,9 +16,10 @@ PUBLIC BUTCE, Python ve PyQt5 kullanılarak geliştirilmiş kapsamlı bir kişis
 🔔 Sessiz bildirim sistemi
 🌙 Koyu tema arayüzü
 🗄️ Güvenilir veri depolama için SQLite veritabanı
-
+Yapay zeka analizi ( 
 
 🚀 Kurulum
+
 Ön Gereksinimler
 Python 3.8 veya üzeri
 Git (depoyu klonlamak için)
@@ -39,52 +40,43 @@ venv\Scripts\activate
 source venv/bin/activate
 
 Bağımlılıkları yükleyin
-Code
-CopyInsert
+
 pip install -r requirements.txt
-Veritabanını başlatın
-Code
-CopyInsert
-python core/init_db.py
+
+GEMİNİ APİ AYARLAMA : CONFIG.PY DOSYASINDA GEMİNİ APİ'NİZİ YAZIN.
 
 Uygulamayı çalıştırın
-Code
-CopyInsert
+
 python main.pyw
 
 🗂️ Proje Yapısı
-Code
-CopyInsert
 PUBLIC BUTCE/
 ├── core/                   # Temel mantık ve arka uç
 ├── gui/                    # Kullanıcı arayüzü bileşenleri
 ├── data/                   # Veritabanı dosyaları
 ├── main.pyw               # Ana uygulama başlangıç noktası
 └── requirements.txt       # Bağımlılıklar
+
 💻 Sistem Gereksinimleri
+
 İşletim Sistemi: Windows, Linux veya macOS
 RAM: Minimum 2GB (4GB önerilen)
 Depolama: 100MB boş alan
 Python 3.8 veya üzeri
+
+
 🔧 Bağımlılıklar
-PyQt5 >= 5.15.9
-pandas >= 2.1.0
-numpy >= 1.24.0
-Diğer bağımlılıklar requirements.txt dosyasında listelenmiştir
+PyQt5
+google-generativeai
+python-dotenv
+pandas
+numpy
+requests
+python-dateutil
+sqlite3
+datetime
 
 
-🤝 Katkıda Bulunma
-Katkılarınızı bekliyoruz! Lütfen Pull Request göndermekten çekinmeyin.
-
-Projeyi forklayın
-Özellik dalınızı oluşturun (git checkout -b özellik/HarikaBirÖzellik)
-Değişikliklerinizi commit edin (git commit -m 'Harika bir özellik eklendi')
-Dalınıza push yapın (git push origin özellik/HarikaBirÖzellik)
-Bir Pull Request açın
-
-
-📝 Lisans
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için LICENSE dosyasına bakın.
 
 📞 Destek
 Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa:
