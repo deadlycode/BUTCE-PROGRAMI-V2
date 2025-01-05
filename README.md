@@ -1,12 +1,14 @@
-Tabii, Türkçe bir README hazırlayalım. İşte önerdiğim Türkçe README içeriği:
 
 💰 PUBLIC BUTCE - Kişisel Bütçe Yönetim Sistemi
-PythonPyQt5License
+
 
 📝 Açıklama
+
 PUBLIC BUTCE, Python ve PyQt5 kullanılarak geliştirilmiş kapsamlı bir kişisel bütçe yönetim sistemidir. Kullanıcı dostu arayüzü ile gelir-giderlerinizi takip etmenize ve finansal hedeflerinizi yönetmenize yardımcı olur.
 
+
 ✨ Temel Özellikler
+
 📊 Gelir ve gider takibi
 💳 Çoklu hesap yönetimi
 📝 Hızlı not alma özelliği
