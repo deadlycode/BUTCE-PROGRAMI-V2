@@ -1,0 +1,51 @@
+
+Code
+CopyInsert
+PUBLIC BUTCE R10/
+│
+├── core/                           # Ana kod dosyaları
+│   ├── __init__.py
+│   ├── config.py                   # Konfigürasyon ayarları
+│   ├── gelir_liste_kod.py         # Gelir listesi işlemleri
+│   ├── hesaplar_kod.py            # Hesap işlemleri
+│   ├── hizli_not_kod.py           # Hızlı not işlemleri
+│   ├── ingest.py                  # Veri alma işlemleri
+│   ├── init_db.py                 # Veritabanı başlatma scripti
+│   └── sesiz_uyari_mesaj.py       # Uyarı mesajları modülü
+│
+├── gui/                           # Arayüz dosyaları
+│   ├── __init__.py
+│   ├── GelirListe_Gui.py         # Gelir listesi arayüzü
+│   ├── anamenu.py                # Ana menü arayüzü
+│   ├── anasayfa.py               # Ana sayfa arayüzü
+│   ├── butce_gui.py              # Bütçe arayüzü
+│   ├── hesapkayit_gui.py         # Hesap kayıt arayüzü
+│   ├── hesaptablo_gui.py         # Hesap tablosu arayüzü
+│   ├── hizlinotlar.py            # Hızlı notlar arayüzü
+│   └── listele.py                # Listeleme arayüzü
+│
+├── data/                          # Veritabanı dosyaları
+│   ├── notlar.db                 # Notlar veritabanı
+│   └── veriler1.db               # Ana veriler veritabanı
+│
+├── .gitignore                     # Git yoksayma dosyası
+├── main.pyw                       # Ana program başlangıç dosyası
+└── requirements.txt               # Python bağımlılıkları
+Dosya ve Klasör Açıklamaları:
+
+core/ klasörü:
+Program mantığını içeren Python modülleri
+Veritabanı işlemleri, hesaplama ve işlem fonksiyonları
+Yardımcı modüller ve araçlar
+gui/ klasörü:
+Kullanıcı arayüzü dosyaları
+PyQt5 ile oluşturulmuş arayüz sınıfları
+Form ve pencere tasarımları
+data/ klasörü:
+SQLite veritabanı dosyaları
+notlar.db: Notlar için veritabanı
+veriler1.db: Ana veriler için veritabanı
+Kök dizindeki dosyalar:
+main.pyw: Programın başlangıç noktası
+requirements.txt: Gerekli Python paketleri
+.gitignore: Git versiyon kontrolü için yoksayma listesi
